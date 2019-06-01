@@ -21,7 +21,7 @@
 	<bean id="datasource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
 		<!-- 	
 		<property name="properties">
-            <bean class="com.travelsky.newbaoxian.support.util.DatasourcePropertiesFactory" factory-method="getProperties">
+            <bean class="com.util.DatasourcePropertiesFactory" factory-method="getProperties">
                 <constructor-arg type="java.lang.String">
                     <value>${password}</value>
                 </constructor-arg>   
